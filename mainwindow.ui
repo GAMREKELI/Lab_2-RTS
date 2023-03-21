@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1523</width>
+    <height>773</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>LAB2</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextEdit" name="consol">
+    <property name="geometry">
+     <rect>
+      <x>970</x>
+      <y>460</y>
+      <width>511</width>
+      <height>221</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BtnConnect">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>30</y>
+      <width>80</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Старт</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="PortNameBox">
+    <property name="geometry">
+     <rect>
+      <x>1310</x>
+      <y>110</y>
+      <width>126</width>
+      <height>37</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Btn_Serch">
+    <property name="geometry">
+     <rect>
+      <x>1380</x>
+      <y>30</y>
+      <width>103</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Поиск</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_17">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>110</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Скорость чтения</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="BaudRateBox">
+    <property name="geometry">
+     <rect>
+      <x>1100</x>
+      <y>110</y>
+      <width>126</width>
+      <height>37</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_18">
+    <property name="geometry">
+     <rect>
+      <x>1250</x>
+      <y>110</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Порт</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BtnSave">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>30</y>
+      <width>181</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Применить настройки</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BtnDisconect">
+    <property name="geometry">
+     <rect>
+      <x>1050</x>
+      <y>30</y>
+      <width>80</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Стоп</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Тема</string>
+    </property>
+   </widget>
+   <widget class="QCustomPlot" name="widget_7" native="true">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>100</y>
+      <width>901</width>
+      <height>581</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="doubleSpinBox_228">
+    <property name="geometry">
+     <rect>
+      <x>1140</x>
+      <y>190</y>
+      <width>161</width>
+      <height>42</height>
+     </rect>
+    </property>
+    <property name="decimals">
+     <number>4</number>
+    </property>
+    <property name="maximum">
+     <double>1000.000000000000000</double>
+    </property>
+    <property name="singleStep">
+     <double>0.000100000000000</double>
+    </property>
+    <property name="value">
+     <double>400.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="doubleSpinBox_2">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>320</y>
+      <width>161</width>
+      <height>42</height>
+     </rect>
+    </property>
+    <property name="decimals">
+     <number>4</number>
+    </property>
+    <property name="maximum">
+     <double>1.000000000000000</double>
+    </property>
+    <property name="singleStep">
+     <double>0.000100000000000</double>
+    </property>
+    <property name="value">
+     <double>0.300000000000000</double>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="doubleSpinBox_3">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>250</y>
+      <width>161</width>
+      <height>42</height>
+     </rect>
+    </property>
+    <property name="decimals">
+     <number>4</number>
+    </property>
+    <property name="minimum">
+     <double>0.000000000000000</double>
+    </property>
+    <property name="maximum">
+     <double>100.000000000000000</double>
+    </property>
+    <property name="singleStep">
+     <double>0.000100000000000</double>
+    </property>
+    <property name="value">
+     <double>1.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="doubleSpinBox_4">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>390</y>
+      <width>161</width>
+      <height>42</height>
+     </rect>
+    </property>
+    <property name="decimals">
+     <number>4</number>
+    </property>
+    <property name="maximum">
+     <double>100.000000000000000</double>
+    </property>
+    <property name="singleStep">
+     <double>0.000100000000000</double>
+    </property>
+    <property name="value">
+     <double>20.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_19">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>200</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Величина базы, мм</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_20">
+    <property name="geometry">
+     <rect>
+      <x>1210</x>
+      <y>260</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>sample1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_22">
+    <property name="geometry">
+     <rect>
+      <x>1210</x>
+      <y>340</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>sample2</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_23">
+    <property name="geometry">
+     <rect>
+      <x>1210</x>
+      <y>410</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>sample3</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1523</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QCustomPlot</class>
+   <extends>QWidget</extends>
+   <header location="global">qcustomplot.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
